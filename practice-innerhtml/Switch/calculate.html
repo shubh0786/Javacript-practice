@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="st.css">
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>User Defined Calculations</h1>
+    <h2>please provide your values</h2>
+    <br />
+    <div id="cal">
+    <form style="background-color: grey; width: 236px; text-align: center;">
+      <p>Please enter your first number</p>
+      <input type="text" id="num1" />
+      <br />
+      <p>Please enter your second number</p>
+      <input type="text" id="num2" />
+      <br />
+      <p>Please enter your choice</p>
+      <ul>
+        <li>Add</li>
+        <li>sub</li>
+        <li>Div</li>
+        <li>mul</li>
+      </ul>
+      <input type="text" id="choice" />
+
+      <button id="btn" onclick="myfunc()"> click</button>
+    </form>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
