@@ -1,0 +1,5 @@
+function btnAlert(){
+ 
+    alert(Date());
+
+}
